@@ -17,7 +17,8 @@ export class TransferenciaService {
 
   adicionar(transferencia: any) {
     this.hidratar(transferencia);
-    this.listaTransferencia.push(transferencia);
+
+    return this.httpClient.post<Transferencia>(this.url, transferencia);
   }
 
   todas(): Observable<Transferencia[]> {
