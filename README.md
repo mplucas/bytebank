@@ -1,3 +1,4 @@
+# Curso da plataforma Alura - Angular: Começando com o framework
 # Bytebank
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
